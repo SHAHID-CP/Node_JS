@@ -1,2 +1,2 @@
 # Node_JS
---Amra Node Js er Maddome Javascript code run kori--
+__Amra Node Js er Maddome Javascript code run kori ---------exm: node index.js =result

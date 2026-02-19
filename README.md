@@ -100,3 +100,71 @@ __Amra Node Js er Maddome Javascript code run kori ---------exm: node index.js =
 </tr>
 </tbody>
 </table>
+
+<h2 class="code-line" data-line-start=0 data-line-end=1 ><a id="File_Operation_0"></a>File Operation</h2>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Method</th>
+<th>Sync</th>
+<th>Promise</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>readFile</code></td>
+<td><code>readFileSync</code></td>
+<td><code>fs.promises.readFile</code></td>
+<td>পুরো ফাইল read করে buffer/string দেয়</td>
+</tr>
+<tr>
+<td><code>writeFile</code></td>
+<td><code>writeFileSync</code></td>
+<td><code>fs.promises.writeFile</code></td>
+<td>ফাইল write (overwrite করে)</td>
+</tr>
+<tr>
+<td><code>appendFile</code></td>
+<td><code>appendFileSync</code></td>
+<td><code>fs.promises.appendFile</code></td>
+<td>ফাইলের শেষে data যোগ করে</td>
+</tr>
+<tr>
+<td><code>truncate</code></td>
+<td><code>truncateSync</code></td>
+<td><code>fs.promises.truncate</code></td>
+<td>ফাইলের size কমায়</td>
+</tr>
+<tr>
+<td><code>copyFile</code></td>
+<td><code>copyFileSync</code></td>
+<td><code>fs.promises.copyFile</code></td>
+<td>ফাইল copy করে</td>
+</tr>
+<tr>
+<td><code>rename</code></td>
+<td><code>renameSync</code></td>
+<td><code>fs.promises.rename</code></td>
+<td>ফাইল rename/move করে</td>
+</tr>
+<tr>
+<td><code>unlink</code></td>
+<td><code>unlinkSync</code></td>
+<td><code>fs.promises.unlink</code></td>
+<td>ফাইল delete করে</td>
+</tr>
+<tr>
+<td><code>open</code></td>
+<td><code>openSync</code></td>
+<td><code>fs.promises.open</code></td>
+<td>ফাইল descriptor open করে</td>
+</tr>
+<tr>
+<td><code>close</code></td>
+<td><code>closeSync</code></td>
+<td>—</td>
+<td>descriptor close করে</td>
+</tr>
+</tbody>
+</table>

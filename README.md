@@ -218,3 +218,144 @@ __Amra Node Js er Maddome Javascript code run kori ---------exm: node index.js =
 </tr>
 </tbody>
 </table>
+
+<h2 class="code-line" data-line-start=0 data-line-end=1 ><a id="File_info__Meta_data_0"></a>File info / Meta data</h2>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Method</th>
+<th>Sync</th>
+<th>Promise</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>stat</code></td>
+<td><code>statSync</code></td>
+<td><code>fs.promises.stat</code></td>
+<td>file info (size, time, type)</td>
+</tr>
+<tr>
+<td><code>lstat</code></td>
+<td><code>lstatSync</code></td>
+<td><code>fs.promises.lstat</code></td>
+<td>symlink info</td>
+</tr>
+<tr>
+<td><code>fstat</code></td>
+<td><code>fstatSync</code></td>
+<td>—</td>
+<td>descriptor info</td>
+</tr>
+<tr>
+<td><code>access</code></td>
+<td><code>accessSync</code></td>
+<td><code>fs.promises.access</code></td>
+<td>permission check</td>
+</tr>
+<tr>
+<td><code>exists</code> (deprecated)</td>
+<td>—</td>
+<td>—</td>
+<td>use <code>access</code> instead</td>
+</tr>
+<tr>
+<td><code>chmod</code></td>
+<td><code>chmodSync</code></td>
+<td><code>fs.promises.chmod</code></td>
+<td>permission change</td>
+</tr>
+<tr>
+<td><code>chown</code></td>
+<td><code>chownSync</code></td>
+<td><code>fs.promises.chown</code></td>
+<td>ownership change</td>
+</tr>
+<tr>
+<td><code>utimes</code></td>
+<td><code>utimesSync</code></td>
+<td><code>fs.promises.utimes</code></td>
+<td>timestamps change</td>
+</tr>
+</tbody>
+</table>
+<h2 class="code-line" data-line-start=12 data-line-end=13 ><a id="Link__Special_file_12"></a>Link &amp; Special file</h2>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Method</th>
+<th>Sync</th>
+<th>Promise</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>link</code></td>
+<td><code>linkSync</code></td>
+<td><code>fs.promises.link</code></td>
+<td>hard link create</td>
+</tr>
+<tr>
+<td><code>symlink</code></td>
+<td><code>symlinkSync</code></td>
+<td><code>fs.promises.symlink</code></td>
+<td>symbolic link create</td>
+</tr>
+<tr>
+<td><code>readlink</code></td>
+<td><code>readlinkSync</code></td>
+<td><code>fs.promises.readlink</code></td>
+<td>symlink target read</td>
+</tr>
+<tr>
+<td><code>realpath</code></td>
+<td><code>realpathSync</code></td>
+<td><code>fs.promises.realpath</code></td>
+<td>absolute resolved path</td>
+</tr>
+</tbody>
+</table>
+<h2 class="code-line" data-line-start=20 data-line-end=21 ><a id="Streams_20"></a>Streams</h2>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>createReadStream</code></td>
+<td>large file read stream</td>
+</tr>
+<tr>
+<td><code>createWriteStream</code></td>
+<td>large file write stream</td>
+</tr>
+</tbody>
+</table>
+<h2 class="code-line" data-line-start=26 data-line-end=27 ><a id="Watcher_26"></a>Watcher</h2>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>watch</code></td>
+<td>file বা directory watch</td>
+</tr>
+<tr>
+<td><code>watchFile</code></td>
+<td>polling-based watch</td>
+</tr>
+<tr>
+<td><code>unwatchFile</code></td>
+<td>stop watching</td>
+</tr>
+</tbody>
+</table>

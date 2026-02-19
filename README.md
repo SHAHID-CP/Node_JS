@@ -168,3 +168,53 @@ __Amra Node Js er Maddome Javascript code run kori ---------exm: node index.js =
 </tr>
 </tbody>
 </table>
+
+<h2 class="code-line" data-line-start=0 data-line-end=1 ><a id="Directory_Operation_0"></a>Directory Operation</h2>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Method</th>
+<th>Sync</th>
+<th>Promise</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>mkdir</code></td>
+<td><code>mkdirSync</code></td>
+<td><code>fs.promises.mkdir</code></td>
+<td>directory create</td>
+</tr>
+<tr>
+<td><code>mkdtemp</code></td>
+<td><code>mkdtempSync</code></td>
+<td><code>fs.promises.mkdtemp</code></td>
+<td>temp directory create</td>
+</tr>
+<tr>
+<td><code>readdir</code></td>
+<td><code>readdirSync</code></td>
+<td><code>fs.promises.readdir</code></td>
+<td>directory list</td>
+</tr>
+<tr>
+<td><code>rmdir</code> (deprecated)</td>
+<td><code>rmdirSync</code></td>
+<td><code>fs.promises.rmdir</code></td>
+<td>directory remove</td>
+</tr>
+<tr>
+<td><code>rm</code></td>
+<td><code>rmSync</code></td>
+<td><code>fs.promises.rm</code></td>
+<td>file বা directory remove</td>
+</tr>
+<tr>
+<td><code>opendir</code></td>
+<td><code>opendirSync</code></td>
+<td><code>fs.promises.opendir</code></td>
+<td>directory stream open</td>
+</tr>
+</tbody>
+</table>
